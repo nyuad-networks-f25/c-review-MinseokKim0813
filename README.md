@@ -35,7 +35,9 @@ also define a student. What is the error? What is the fix?
 ### Data Types
 
 1. What is a variable (take a minute to write it down)?
+-> Variable is a memory address(a pointer) where the programmer defines the value to be used later in the code. The value can change but not the memory address.
 2. Each variable has a type in C. What are all the types defined in C?
+-> int, double, 
 3. Create two files `sizeinfo.h` and `sizeinfo.c`. `sizeinfo.h` should
 expose a function `void system_sizes()`. This function
 
