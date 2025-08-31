@@ -1,5 +1,6 @@
 main: main.c
-	gcc main.c -o main --std=c2x
+	bear -- gcc main.c -o main -Wall -Wextra
+	./main
 
 clean:
 	rm main
