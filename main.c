@@ -3,6 +3,6 @@
 
 
 int main() {
-    printf("%d", ENROLLED);
+    printf("%d\n", ENROLLED);
     return 0;
 }
