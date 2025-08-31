@@ -1,4 +1,8 @@
 main: main.c status.h student.h
-	bear -- gcc main.c -o main -Wall -Wextra
+	bear -- gcc -std=c2x main.c -o main -Wall -Wextra && ./main
+
+selection: selection.c
+	bear -- gcc -std=c2x selection.c -o selection -Wall -Wextra && ./selection
+
 clean:
-	rm main
+	rm main selection
