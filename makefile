@@ -4,5 +4,8 @@ main: main.c status.h student.h
 selection: selection.c
 	bear -- gcc -std=c2x selection.c -o selection -Wall -Wextra && ./selection
 
+repetition: repetition.c
+	bear -- gcc -std=c2x repetition.c -o repetition -Wall -Wextra && ./repetition
+
 clean:
-	rm main selection
+	rm main selection repetition
