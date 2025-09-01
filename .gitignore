@@ -1,0 +1,5 @@
+*.out
+main
+.*
+compile_commands.json
+selection

@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/zPkSNLYm)
 # C Review
 
 This repo is provides the first lab content for the networks class
@@ -34,7 +35,9 @@ also define a student. What is the error? What is the fix?
 ### Data Types
 
 1. What is a variable (take a minute to write it down)?
+-> Variable is a memory address(a pointer) where the programmer defines the value to be used later in the code. The value can change but not the memory address.
 2. Each variable has a type in C. What are all the types defined in C?
+-> int, double, long, short, float, boolean(after c99), char
 3. Create two files `sizeinfo.h` and `sizeinfo.c`. `sizeinfo.h` should
 expose a function `void system_sizes()`. This function
 
